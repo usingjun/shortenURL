@@ -11,10 +11,10 @@
 해당 프로젝트는 git과 github으로 버전관리 되고 있으며, github을 통해 오픈소스로 공개되었습니다.
 
 ## install project
-    git clone <본인repository>
+    git clone https://github.com/brain-hack/shortenURL.git
 
 ### install dependency
-    pip install "fastapi[all]"
+    pip install -r requiremnts.txt
 
 ## run app
     uvicorn main:app --reload
